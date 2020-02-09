@@ -1,6 +1,5 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { Header } from "./Header"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -8,12 +7,10 @@ const Layout = ({ children }) => {
     <>
       <div
         style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
+          height: "100vh",
         }}
       >
-        <main>{children}</main>
+        <main style={{ height: "100%" }}>{children}</main>
       </div>
     </>
   )
