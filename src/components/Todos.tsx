@@ -31,7 +31,7 @@ export const Todos = ({
   const sortedTodoItems = sortTodoItems(todoItems)
   return (
     <ul style={{ margin: 0, listStyleType: "none" }}>
-      <Row>
+      <Row style={{ textAlign: "center" }}>
         <input
           value={newItemText}
           onChange={onInputChange}
