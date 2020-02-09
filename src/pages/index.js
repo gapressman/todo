@@ -1,10 +1,11 @@
 import React from "react"
 
+import { Notepad } from "../components/Notepad"
 import Layout from "../components/layout"
 
 const IndexPage = () => (
   <Layout>
-    <div class="container"></div>
+    <Notepad />
   </Layout>
 )
 
